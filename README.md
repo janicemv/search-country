@@ -1,6 +1,6 @@
 # Country Search App
 
-This is a simple country search application that allows users to search for countries by name. The app fetches country data using the [Covid-193 API](https://covid-193.p.rapidapi.com/), and displays the results on the page. Users can search by typing at least 3 characters, either by pressing **Enter** or clicking the **Search** button.
+This is a simple country search application that allows users to search for countries by name. The app fetches country data using the [Covid-193 API](https://rapidapi.com/api-sports/api/covid-193), and displays the results on the page. Users can search by typing at least 3 characters, either by pressing **Enter** or clicking the **Search** button.
 
 ## Features
 
@@ -27,9 +27,5 @@ This is a simple country search application that allows users to search for coun
 
 ## API
 
-The app uses the [Covid-193 API](https://covid-193.p.rapidapi.com/) to fetch country data. You need to include your own RapidAPI key to access the API. You can sign up for an API key at [RapidAPI](https://rapidapi.com/).
+The app uses the [Covid-193 API](https://rapidapi.com/api-sports/api/covid-193) to fetch country data. You need to include your own RapidAPI key to access the API. You can sign up for an API key at [RapidAPI](https://rapidapi.com/).
 
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
