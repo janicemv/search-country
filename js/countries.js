@@ -14,7 +14,7 @@ export class Countries {
         try {
             const response = await fetch(url, options);
             if (!response.ok) {
-                throw new Error("Erro ao buscar dados da API");
+                throw new Error("Error getting API data.");
             }
             return await response.json();
         } catch (error) {
