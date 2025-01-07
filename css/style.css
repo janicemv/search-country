@@ -1,0 +1,30 @@
+body {
+    background-color: #090d5e;
+}
+
+h1 {
+    text-align: center;
+    color: #090d5e;
+    font-weight: 700;
+}
+
+.container {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 2em;
+    background-color: #f8fbfb;
+}
+
+#results {
+    width: 500px;
+    margin: 2em auto;
+}
+
+#searching {
+    width: 500px;
+    margin: 2em auto;
+}
+
+button {
+    margin-left: 1em;
+}
