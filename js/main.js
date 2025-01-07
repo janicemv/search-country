@@ -13,7 +13,7 @@ function displayResults(data) {
         const countryList = data.response.map((country) => `<li>${country}</li>`).join("");
         resultsDiv.innerHTML = `<ul>${countryList}</ul>`;
     } else {
-        resultsDiv.innerHTML = "<p>Geen landen gevonden.</p>";
+        resultsDiv.innerHTML = "<p>No countries found.</p>";
     }
 }
 
@@ -29,7 +29,7 @@ async function searchCountries() {
             resultsDiv.innerHTML = `<p class="text-danger">${error.message}</p>`;
         }
     } else {
-        resultsDiv.innerHTML = "<p>Voer minimaal 3 tekens in.</p>"; 
+        resultsDiv.innerHTML = "<p>Type at least 3 characters!</p>"; 
     }
 
 }
